@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game Components">
+      <UniqueIdentifier>{274521c8-1d5a-46b2-9e48-ca86d610d2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL">
+      <UniqueIdentifier>{381e70dc-8908-40b2-8bd5-c82f2da9ecde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_ TEAL Resources">
+      <UniqueIdentifier>{74cb38bc-e5a5-473b-9c38-1562da913636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Asset Management">
+      <UniqueIdentifier>{c78fb845-6d67-4dc6-8a1e-75199f5d0435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Collision Management">
+      <UniqueIdentifier>{25152d78-3b70-4568-8f3f-c86df9c7838f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Collision Management\CollisionInfo">
+      <UniqueIdentifier>{643b812d-f8e4-4933-ba38-c2625f72d0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Game and Scene Management">
+      <UniqueIdentifier>{407b3ec4-f684-476b-bf40-247b968bfcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Time Management">
+      <UniqueIdentifier>{3183889c-b81e-4a6c-9aed-c985bab02295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Tools and Visualizers">
+      <UniqueIdentifier>{fe2cc02b-e700-49c7-a53c-0c2e40f68d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\User Base Classes">
+      <UniqueIdentifier>{409825d2-ebc2-4122-98c2-52be09427ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Window and Event Management">
+      <UniqueIdentifier>{b170d022-c058-4e94-b847-9689da64a5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\PlayerOne">
+      <UniqueIdentifier>{0056ee3e-36f9-47e7-9173-0e3e7e47c70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Player">
+      <UniqueIdentifier>{1b594ea3-089f-4ecd-a971-60e76ab1e1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Enemies">
+      <UniqueIdentifier>{b2e5cdb3-5ca1-4013-a2f9-17b0753704be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Field">
+      <UniqueIdentifier>{bab5cab1-90d5-40e9-abf9-a406dd4c27ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Other">
+      <UniqueIdentifier>{20a07dfd-57b9-4c55-ad4b-f06b44e99a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Enemies\Centipede">
+      <UniqueIdentifier>{ac4393f8-ee37-49f9-8d77-0238fa60f0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Enemies\Scorpion">
+      <UniqueIdentifier>{0594ce23-ee1f-44ef-9ee4-6b18a06aed32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Enemies\Flea">
+      <UniqueIdentifier>{cf8741cf-9af9-4502-ac1d-5802037176d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Enemies\Spider">
+      <UniqueIdentifier>{e8e0303c-737d-4709-a0a3-1a8203d46f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Font">
+      <UniqueIdentifier>{06c9bcf2-a69d-42a9-9eee-1c74d90b1d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Attractor">
+      <UniqueIdentifier>{f9139fbb-d0fb-48de-b4ec-9cea99264825}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game Components\TEAL\LoadAllResources.cpp">
+      <Filter>Source Files\Game Components\_ TEAL Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AnimatedSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\ResourceManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABB.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoShape.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionTools.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Game.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\SceneManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AlarmEventTimeline.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AlarmManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\ConsoleMsg.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\TEALShow.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Tools.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameObject.cpp">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Scene.cpp">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\InputEventManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\WindowManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABBfromShape.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABBfromSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameClock.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Blaster.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Shot.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\PlayerOneScene.cpp">
+      <Filter>Source Files\Game Components\PlayerOne</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Mushroom.cpp">
+      <Filter>Source Files\Game Components\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\MushroomField.cpp">
+      <Filter>Source Files\Game Components\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\FirstScene.cpp">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\KeyEventTest.cpp">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Kill.cpp">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\InputManager.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Keyboard.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\CentipedeHead.cpp">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\CentipedeManager.cpp">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\CentipedeNode.cpp">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\CentipedeSegment.cpp">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Scorpion.cpp">
+      <Filter>Source Files\Game Components\Enemies\Scorpion</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\ScorpionManager.cpp">
+      <Filter>Source Files\Game Components\Enemies\Scorpion</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Flea.cpp">
+      <Filter>Source Files\Game Components\Enemies\Flea</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\FleaManager.cpp">
+      <Filter>Source Files\Game Components\Enemies\Flea</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Spider.cpp">
+      <Filter>Source Files\Game Components\Enemies\Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\SpiderManager.cpp">
+      <Filter>Source Files\Game Components\Enemies\Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\WaveManager.cpp">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\ScoreManager.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Glyph.cpp">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\SpriteSheet.cpp">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\CentFont.cpp">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Hud.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\AI.cpp">
+      <Filter>Source Files\Game Components\Attractor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\Timers.cpp">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\SoundBox.cpp">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game Components\TEAL\AnimatedSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\ResourceManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfo.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABB.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABBfromShape.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABBfromSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoShape.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionGrid.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionTools.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionGridBase.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Game.h">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\SceneManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\AlarmEventTimeline.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\AlarmManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CommonElements.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\ConsoleMsg.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\doxygendata.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\TEALShow.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Tools.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GameObject.h">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Scene.h">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GlobalDefinitions.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\WindowManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\InputEventManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GameClock.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Blaster.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Shot.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\PlayerOneScene.h">
+      <Filter>Source Files\Game Components\PlayerOne</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Mushroom.h">
+      <Filter>Source Files\Game Components\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\MushroomField.h">
+      <Filter>Source Files\Game Components\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\FirstScene.h">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\KeyEventTest.h">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Constants.h">
+      <Filter>Source Files\Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Kill.h">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\InputManager.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Keyboard.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\CentipedeHead.h">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\CentipedeManager.h">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\CentipedeNode.h">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\CentipedeSegment.h">
+      <Filter>Source Files\Game Components\Enemies\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Scorpion.h">
+      <Filter>Source Files\Game Components\Enemies\Scorpion</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\ScorpionManager.h">
+      <Filter>Source Files\Game Components\Enemies\Scorpion</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Flea.h">
+      <Filter>Source Files\Game Components\Enemies\Flea</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\FleaManager.h">
+      <Filter>Source Files\Game Components\Enemies\Flea</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Spider.h">
+      <Filter>Source Files\Game Components\Enemies\Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\SpiderManager.h">
+      <Filter>Source Files\Game Components\Enemies\Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\WaveManager.h">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\WaveConsts.h">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\ScoreManager.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Glyph.h">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\SpriteSheet.h">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\CentFont.h">
+      <Filter>Source Files\Game Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Hud.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\AI.h">
+      <Filter>Source Files\Game Components\Attractor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Timers.h">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Soundbox.h">
+      <Filter>Source Files\Game Components\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\Wave.h">
+      <Filter>Source Files\Game Components\Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game Components\TEAL\_Version Information.txt">
+      <Filter>Source Files\Game Components\_TEAL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
